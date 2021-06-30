@@ -1,0 +1,12 @@
+<div class="user">
+    <strong>{{ user.name }}</strong>
+    <br />{{ user.cash }}
+    <br />{{ user.message }}
+    <app-add-value></app-add-value>
+    <div>
+        <app-button text="Check" color="#EDC951" (btnClick)="check()"></app-button>
+        <app-button text="Fold" color="#CC333F" (btnClick)="fold(user)"></app-button>
+        <app-button text="Quitter la table" (btnClick)="sendUserToDelete(user)"></app-button>
+    </div>
+    <div id="time"></div>
+</div>

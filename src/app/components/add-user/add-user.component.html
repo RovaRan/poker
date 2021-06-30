@@ -1,0 +1,11 @@
+<div class="add-user-form">
+    <form class="add-user" (ngSubmit)="onSubmit()"> 
+        <div class="name">
+            <input type="text" name="name" [(ngModel)]="name" id="name">
+        </div>
+        <div class="montant">
+            <input type="text" name="montant" [(ngModel)]="montant" id="montant">
+        </div>
+        <input type="submit" value="Save User">
+    </form> 
+</div>

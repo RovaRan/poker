@@ -1,0 +1,10 @@
+.add-user-form { 
+    border: 1px solid;   
+    min-height: 100px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+    background-color: #33454E;
+    color:#eeeeee;
+    max-width: 250px;
+    text-align: center;
+}
